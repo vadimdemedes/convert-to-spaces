@@ -22,9 +22,6 @@
     "tabs",
     "spaces"
   ],
-  "dependencies": {
-    "repeating": "^3.0.0"
-  },
   "devDependencies": {
     "ava": "^0.16.0",
     "xo": "^0.17.1"
