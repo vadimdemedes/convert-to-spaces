@@ -3,14 +3,14 @@
   "version": "1.0.1",
   "description": "Convert tabs to spaces in a string",
   "license": "MIT",
-  "repository": "vdemedes/convert-to-spaces",
-  "author": {
-    "name": "vdemedes",
-    "email": "vdemedes@gmail.com",
-    "url": "github.com/vdemedes"
-  },
+  "repository": "vadimdemedes/convert-to-spaces",
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "keywords": [
+    "tabs",
+    "spaces"
+  ],
   "engines": {
-    "node": ">=4"
+    "node": ">= 4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -18,15 +18,8 @@
   "files": [
     "index.js"
   ],
-  "keywords": [
-    "tabs",
-    "spaces"
-  ],
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.18.2",
     "xo": "^0.17.1"
-  },
-  "xo": {
-    "esnext": true
   }
 }

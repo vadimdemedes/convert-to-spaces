@@ -1,8 +1,7 @@
-# convert-to-spaces [![Build Status](https://travis-ci.org/vdemedes/convert-to-spaces.svg?branch=master)](https://travis-ci.org/vdemedes/convert-to-spaces)
+# convert-to-spaces [![Build Status](https://travis-ci.org/vadimdemedes/convert-to-spaces.svg?branch=master)](https://travis-ci.org/vadimdemedes/convert-to-spaces)
 
 > Convert tabs to spaces in a string
 
-Supports multiline strings as well.
 
 ## Install
 
@@ -41,9 +40,9 @@ Number of spaces instead of each tab.
 
 ## Related
 
-- [convert-to-tabs](https://github.com/vdemedes/convert-to-tabs) - Convert spaces to tabs.
+- [convert-to-tabs](https://github.com/vadimdemedes/convert-to-tabs) - Convert spaces to tabs.
 
 
 ## License
 
-MIT © [vdemedes](https://github.com/vdemedes)
+MIT © [Vadim Demedes](https://vadimdemedes.com)
