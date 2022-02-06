@@ -1,7 +1,7 @@
 import test from 'ava';
-import tabsToSpaces from './';
+import tabsToSpaces from './dist/index.js';
 
-const str = `
+const input = `
 function someFunc() {
 	if (a) {
 		someOtherFunc();
@@ -10,23 +10,29 @@ function someFunc() {
 `.trim();
 
 test('convert tabs to spaces', t => {
-	t.is(tabsToSpaces(str), [
-		'function someFunc() {',
-		'  if (a) {',
-		'    someOtherFunc();',
-		'  }',
-		'}'
-	].join('\n'));
+	t.is(
+		tabsToSpaces(input),
+		[
+			'function someFunc() {',
+			'  if (a) {',
+			'    someOtherFunc();',
+			'  }',
+			'}',
+		].join('\n'),
+	);
 });
 
 test('use custom amount of spaces', t => {
-	t.is(tabsToSpaces(str, 4), [
-		'function someFunc() {',
-		'    if (a) {',
-		'        someOtherFunc();',
-		'    }',
-		'}'
-	].join('\n'));
+	t.is(
+		tabsToSpaces(input, 4),
+		[
+			'function someFunc() {',
+			'    if (a) {',
+			'        someOtherFunc();',
+			'    }',
+			'}',
+		].join('\n'),
+	);
 });
 
 test('convert only leading tabs', t => {
