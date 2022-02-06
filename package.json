@@ -1,6 +1,6 @@
 {
   "name": "convert-to-spaces",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Convert tabs to spaces in a string",
   "license": "MIT",
   "repository": "vadimdemedes/convert-to-spaces",
